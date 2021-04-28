@@ -5,4 +5,3 @@ env.py
 __pycache__/
 *.py[cod]
 node_modules/
-section_13_weather_app_project/scripts/forecast.js
