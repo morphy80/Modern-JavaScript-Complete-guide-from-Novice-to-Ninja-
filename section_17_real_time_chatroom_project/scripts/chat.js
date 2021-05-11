@@ -48,12 +48,3 @@ class Chatroom {
         }
     }
 }
-
-// setTimeout(() => {
-//     chatroom.updateRoom('gaming');
-//     chatroom.updateName('yoshi');
-//     chatroom.getChats((data) => {
-//         console.log(data);
-//     });
-//     chatroom.addChat('hello');
-// }, 3000);
