@@ -1,17 +1,17 @@
 {
-  "name": "lecture_153",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/cli": "^7.13.16",
-    "@babel/core": "^7.14.2",
-    "@babel/preset-env": "^7.14.2"
-  }
+    "name": "lecture_153",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "babel": "node_modules/.bin/babel src/index.js -w -o dist/assets/bundle.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.13.16",
+        "@babel/core": "^7.14.2",
+        "@babel/preset-env": "^7.14.2"
+    }
 }
